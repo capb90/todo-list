@@ -1,6 +1,6 @@
-# WEBPACK INITIAL CONFIGS
+# TODO LIST APP
 
-Initial configuration of webpack for any JavaScript project that works with this technology.
+App created to explain classes in JavaScript.
 
 ## Notes
 
