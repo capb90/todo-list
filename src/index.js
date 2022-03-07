@@ -1,8 +1,14 @@
 import './styles.css';
 
-import { Todo } from './classes/todo.class';
+import { Todo, TodoList } from './classes';
+import { createTodoHtml } from './js/componentes';
 
 
 const todo =  new Todo('Prueba javaScript');
-console.log("🚀 ~ todo", todo)
+const todoList = new TodoList();
+
+createTodoHtml(todo);
+
+todoList.addTodo(todo);
+console.log("🚀 ~ todoList", todoList)
 

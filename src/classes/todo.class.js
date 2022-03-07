@@ -4,7 +4,7 @@ export class Todo {
         this.task = task;
 
         this.id       = new Date().getTime();
-        this.complete = false;
+        this.complete = true;
         this.date     = new Date(); 
     }
 }
