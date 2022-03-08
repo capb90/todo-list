@@ -13,7 +13,8 @@ export class TodoList{
     }
 
     marckComplete(id){
-
+        const todoCheck = this.todos.find(t => t.id == id);
+        todoCheck.complete = !todoCheck.complete;
     }
 
     deleteCompleted(){

@@ -5,10 +5,9 @@ import { createTodoHtml } from './js/componentes';
 
 
 const todo =  new Todo('Prueba javaScript');
-const todoList = new TodoList();
+export const todoList = new TodoList();
+todoList.addTodo(todo);
 
 createTodoHtml(todo);
 
-todoList.addTodo(todo);
-console.log("🚀 ~ todoList", todoList)
 
