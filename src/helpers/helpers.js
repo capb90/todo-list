@@ -14,5 +14,9 @@ export const modifyHtml = (todoData) => {
 };
 
 export const validateInputType = (target)=>{
-    return target['localName'] === 'input';
+    return target.localName.includes('input');
+}
+
+export const validetaButtonType = (target)=>{
+    return target.localName.includes('button');
 }
